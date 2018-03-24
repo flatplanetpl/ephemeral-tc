@@ -1,0 +1,5 @@
+select disk 1
+create  partition primary
+select volume 1
+format FS=ntfs label="Ephemeral" quick
+ASSIGN LETTER=D
